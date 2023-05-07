@@ -1,0 +1,444 @@
+*{
+	padding:0;
+	margin:0;
+	}
+
+body{
+	font-family:sans-serif;
+}
+h1{
+	color:black;
+	font-size:2.25rem;
+	text-align:center;
+	text-transform:uppercase;
+}
+h6{
+	color:blue;
+	font-size:1.125rem;
+	font-weight:500;
+	text-align:center;
+}
+p{
+	color:gray;
+	line-height:1.8;
+	font-size:1rem;
+	text-align:center;
+}
+section{
+	padding-top:100px;
+	padding-bottom:50px;
+}
+.container{
+	width:1100px;
+	margin:auto;
+	overflow:hidden;
+	text-align:center;
+}
+.col-33{
+	width:33%;
+	float:left;
+	text-align:center;
+}
+.col-25{
+	width:25%;
+	float:left;
+	text-align:center;
+}
+.col-50{
+	width:50%;
+	float:left;
+	text-align:center;
+}
+.content{
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:5px;
+}
+i{
+	font-size:2rem;
+	color:yellow;
+}
+.btn{
+	padding:10px 25px;
+	background-color:blue;
+	border:0px;
+	border-radius:25px;
+	font-size:0.9rem;
+	text-transform:uppercase;
+	color:white;
+	
+}
+/*--- Header part--- */
+header{
+	padding-top:20px;
+	padding-bottom:5px;
+	width:100%;
+	position:fixed;
+	background-color:#00000045;
+	overflow:hidden;
+	z-index:99;
+}
+.company{
+	padding-left:35px;
+	float:left;
+}
+.company img{
+	float:left;
+	display:block;
+}
+.company h2{
+	float:left;
+	color:white;
+	font-size:1.95rem;
+	text-transform:uppercase;
+	margin-left:4px;
+}
+#main-menu{
+	padding-right:35px;
+	float:right;
+	margin-top:15px;
+}
+#mobile-icon{
+	display:none;
+}
+#main-menu ul{
+	list-style:none;
+}
+#main-menu ul li{
+	float:left;
+	margin:auto 1px;
+}
+#main-menu ul li a{
+	padding:10px 25px;
+	text-transform:upparcase;
+	text-decoration:none;
+	color:white;
+	font-size:.95rem;
+}
+#main-menu ul li a:hover{
+	background-color:black;
+	color:#5b98f3 !important;
+}
+.active a{
+	background-color:black;
+	color:#5b98f3;
+}
+/*--- home part--- */
+#home{
+	background-image:url('../images/banner.jpg');
+	background-repeat:no repeat;
+	background-size:cover;
+}
+#home .author_text{
+	text-align:left;
+	margin-top:200px
+}
+#home p{
+	text-align:left;
+	color:yellow;
+	font-size:1rem;text-transform:upparcase;
+}
+#home h6{
+	text-align:left;
+	color:white;
+	font-size:1.25rem;text-transform:upparcase;
+}
+#home h2{
+	color:yellow;
+	font-size:2.5rem;text-transform:upparcase;margin-bottom:20px;
+}
+#home img{
+	height:450px;
+	width:auto;
+	float:right;
+}
+/*--- About me part-- */
+#progress .col-33{
+	margin-top:10px;
+	margin-bottom:20px;
+}
+#progress h5{
+	text-align:left;
+	color:black;
+	text-transform:uppercase;
+}
+.progressbar{
+	height:10px;
+	width:100%;
+	background-color:#dcdcdc;
+	border-radius:5px;
+	margin:10px auto;
+	
+}
+.progress-achieve{
+	height:10px;
+	width:100%;
+	background-color:yellow;
+	border-radius:5px;
+}
+
+/*--- Services part--- */
+#services{
+	background-image:url('../images/serve.jpg');
+	background-repeat:no repeat;
+	background-size:cover;
+	background-attachment:fixed;
+}
+#services .content{
+	background-color:#ffffff47;
+	border-radius:5px;
+	padding:55px;
+}
+#services .content:hover{
+	background-color:#00f3ffad;
+}
+#services h3{
+	margin-top:25px;
+	margin-bottom:25px;
+	color:white;
+	text-transform:upparcase;
+}
+#services p{
+	font-size:.9rem;
+	color:white;
+}
+/*--- projects part--- */
+#projects img{
+	height:250px;
+	width:100%;
+}
+#projects .content{
+	position:relative;
+}
+#projects .overlay{
+	position:absolute;
+	bottom:10px;
+	background-color:black;
+	left:10px;
+	right:10px;
+	padding:15px;
+	color:white;
+	text-transform:upparcase;
+	display:none;
+}
+#projects .content:hover .overlay{
+	display:block;
+}
+ /*--- review part---*/
+ #review{
+	background-image:url('../images/stats.jpg');
+	background-repeat:no repeat;
+	background-size:cover; 
+ }
+ #review h3{
+	font-size:2rem;
+	color:white;
+	margin:25px auto 30px;
+	
+ }
+ #review h5{
+	font-size:1rem;
+	color:white;
+	
+ }
+ /*--- contract part---*/
+ #contract{
+	background-image:url('../images/contact.jpg');
+	background-repeat:no repeat;
+	background-size:cover;
+	background-attachment:fixed;
+ }
+ #contract h1{
+	color:white;
+	margin-bottom:35px;	
+ }
+ #contract form input, #contract form textarea{
+	width:100%;
+	background-color:transparent;
+	font-size:1rem;
+	padding: 10px;
+	margin-bottom:15px;
+	border:1px solid white;
+	box-sizing:border-box;
+	border-radius:5px;
+	
+ }
+ #contract textarea{
+	height:150px;
+	
+ }
+ #contract button{
+	border-radius:5px;
+	padding:15px 35px;
+	background-color:#1dcfc7;
+ }
+ #adress{
+	margin:50px auto 25px;
+ }
+ #adress p{
+	font-size:.9rem;
+	color:white;
+	margin-top:15px;
+ }
+ /*--- footer part---*/
+ footer{
+	overflow:hidden;
+	background-color:#f5f5f5;
+	padding:25px 0;
+ }
+ #copy-right{
+	float:left;
+	color:#484848;
+	margin:10px;
+ }
+ #social{
+	float:right;
+ }
+ #social ul{
+	 list-style:none;
+ }
+#social ul li{
+	float:left;
+	margin:auto 10px;
+}
+#social ul li{
+	float:left;
+	margin:auto 10px;
+	height:20px;
+	width:25px;
+	height:20px;
+	border:2px solid red;
+	border-radius:50%;
+	padding-top:5px;
+	text-align:center;
+}
+#social ul li:last-child{
+	margin-right:0px;
+}
+#social ul li a i{
+	font-size:1rem;
+	color:red;
+}
+#upper{
+	position:fixed;
+	right:25px;
+	bottom:25px;
+	height:30px;
+	width:40px;
+	background-color:gray;
+	text-align:center;
+	padding-top:10px;
+	display:none;
+}
+#upper i{
+	font-size:1rem;
+}
+
+/*-----divice view----*/
+
+@media(max-width:1100px){
+	.container{
+		width=100%;
+	}
+}
+@media(max-width:576px){
+	.col-25, .col-33, .col-50{
+		width=100%;
+	}
+	header{
+		background-color: #000000b8;
+	}
+	.company{
+		padding-left:15px;
+	}
+	.company img{
+		height:50px;
+	}
+	/*===Menubar part=====*/
+	#mobile-icon{
+		display:block;
+		position:absolute;
+		top:25px;
+		right:15px;
+	}
+	#main-menu{
+		width:100%;
+		padding-right:0;
+		margin-top:0;
+	}
+	#main-menu ul li{
+		float:none;
+	}
+	#main-menu ul li a{
+		float:none;
+	}
+	
+	#main-menu ul li a:hover, .active a {
+		background-color:#ececec;
+		color: #191919 !important;
+	}
+	/*===Home part=====*/
+	#home .col-50{
+		width:50%;
+	}
+	#home .col-50{
+		width:50%;
+	}
+	#home img{
+		height:175px;
+	}
+	#home .author_text{
+	margin-top:25px;
+	}
+	#home p{
+		font-size:.75rem;
+	}
+	#home h6{
+		font-size:.9rem;
+	}
+	#home h2{
+		font-size:1.25rem;
+		margin-bottom:10px;
+	}
+	#home .btn{
+		font-size:.75rem;
+		padding:7px 15px;
+		
+	}
+	/*===Review part=====*/
+	#review .col-25{
+		width:50%;
+	}
+	#review .content{
+		margin-top:30px;
+	}
+	/*===Footer part=====*/
+	#copy-right, #social{
+		float:none;
+		text-align:center;
+	}
+	#social ul{
+		margin-left:25%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
